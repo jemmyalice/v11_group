@@ -3,8 +3,7 @@ import torch
 import torch.nn as nn
 from torch.nn.modules.utils import _pair
 try:
-    # from mmcv.ops import modulated_deform_conv2d
-    pass
+    from mmcv.ops import modulated_deform_conv2d
 except ImportError:
     modulated_deform_conv2d = None
 
