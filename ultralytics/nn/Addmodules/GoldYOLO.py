@@ -2,7 +2,7 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 import numpy as np
-from mmcv.cnn import ConvModule, build_norm_layer
+# from mmcv.cnn import ConvModule, build_norm_layer
 
 __all__ = (
 'Low_FAM', 'Low_IFM', 'Split', 'SimConv', 'Low_LAF', 'Inject', 'RepBlock', 'High_FAM', 'High_IFM', 'High_LAF')

@@ -3,7 +3,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mmcv.ops.carafe import normal_init, xavier_init, carafe
+# from mmcv.ops.carafe import normal_init, xavier_init, carafe
 import warnings
 import numpy as np
 

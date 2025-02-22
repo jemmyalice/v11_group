@@ -1,6 +1,6 @@
 import copy
 import math
-from mmcv.ops import ModulatedDeformConv2d
+# from mmcv.ops import ModulatedDeformConv2d
 from ultralytics.utils.tal import dist2bbox, make_anchors
 import torch
 import torch.nn as nn
